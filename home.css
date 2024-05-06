@@ -176,16 +176,16 @@ nav{
 }
 @keyframes change {
     0%{
-        background-image: url("/img/slider/pic\ mut\ 1.jpg");
+        background-image: url("img/slider/pic\ mut\ 1.jpg");
         
     }25%{
-        background-image: url('/img/slider/pic\ mut\ 3.jpg');
+        background-image: url('img/slider/pic\ mut\ 3.jpg');
     }
     50%{
-        background-image: url('/img/slider/pic\ mut\ 2.jpg');
+        background-image: url('img/slider/pic\ mut\ 2.jpg');
     }
     100%{
-        background-image: url("/img/slider/pic\ mut\ 4.jpg");
+        background-image: url("img/slider/pic\ mut\ 4.jpg");
     }
 }
 #home_content{
@@ -342,13 +342,13 @@ h1{
 }
 @keyframes changess {
     0%{
-        background-image: url("/img/slider1/pexels-kyle-loftus-2510430.jpg");
+        background-image: url("img/slider1/pexels-kyle-loftus-2510430.jpg");
         
     }50%{
-        background-image: url('/img/slider1/pexels-matheus-bertelli-3856037.jpg');
+        background-image: url('img/slider1/pexels-matheus-bertelli-3856037.jpg');
     }
     100%{
-        background-image: url('/img/slider1/pexels-matheus-bertelli-3856041.jpg');
+        background-image: url('img/slider1/pexels-matheus-bertelli-3856041.jpg');
     }
     
 }
