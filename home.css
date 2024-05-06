@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100&family=Piazzolla:ital,opsz,wght@0,8..30,200;1,8..30,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Edu+TAS+Beginner:wght@400;500&family=Lato:wght@100&family=Piazzolla:ital,opsz,wght@0,8..30,200;1,8..30,400&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Edu+TAS+Beginner:wght@400;500&family=Lato:wght@100&family=Piazzolla:ital,opsz,wght@0,8..30,200;1,8..30,400&family=Playpen+Sans:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Edu+TAS+Beginner:wght@400;500&family=Lato:wght@100&family=Piazzolla:ital,opsz,wght@0,8..30,200;1,8..30,400&family=Playpen+Sans:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Edu+TAS+Beginner:wght@400;500&family=El+Messiri&family=Lato:wght@100&family=Piazzolla:ital,opsz,wght@0,8..30,200;1,8..30,400&family=Playpen+Sans:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Edu+TAS+Beginner:wght@400;500&family=El+Messiri&family=Lato:wght@100&family=Oswald&family=Piazzolla:ital,opsz,wght@0,8..30,200;1,8..30,400&family=Playpen+Sans:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background-color:black;
+    scroll-behavior: smooth;
+   
+}
+
+#contact{
+   
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    position: fixed;
+}
+#fi{
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: Anton;
+    margin-right: 0;
+    
+}
+#mi{
+    font-size: 2.5rem;
+    color: #ff3131;
+    font-weight: 600;
+    font-family: Anton;
+    margin-left: 0;
+}
+.logo{
+    
+    color: #ffffff;
+    font-family: anton;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin-right: 0px;
+    word-spacing: 3;
+}
+
+
+#contact a{
+    padding: 3px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+}
+.nav-list{
+    float: right;
+    margin-right: 30px;
+}
+.navli{
+    display: inline-block;
+    justify-content: end;
+    margin: 15px ;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-family:Oswald ;
+
+    padding: 15px 15px;
+    margin: auto;
+    font-weight:900;
+
+}
+.nav-list li a:hover{
+        font-family:Oswald ;
+  cursor: pointer; 
+  background-color: #ff3131;
+  color:#ffffff; 
+  border-radius: 2px;
+  font-family: Oswald;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.logo img{
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+
+.fa{
+    color: #ffffff;
+}    
+    /*Home  */
+
+
+.container{
+    margin:  0 auto;
+    width: 90%;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+    margin:  0 auto;
+    border-radius: 5px;
+} 
+#name{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Anton', sans-serif;
+
+   }
+
+
+#fir{
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: Anton;
+    
+}
+#mid{
+    font-size: 4rem;
+    color: #ff3131;
+    font-weight: 600;
+    font-family: Anton;
+    
+}
+#las{
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 10px;
+      
+} 
+.sb{
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: Edu Tas Beginner ;
+}
+.heart{
+    color: #ff3131;
+}
+.slide-container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 90vh;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+    animation: change 9s infinite ;
+    margin-top: 30px;
+    border-radius: 50px;
+    /* box-shadow: 5px 5px 10px; */
+}
+.imggg{
+    transform: translate(-50% -50%) ;
+}
+@keyframes change {
+    0%{
+        background-image: url("/img/slider/pic\ mut\ 1.jpg");
+        
+    }25%{
+        background-image: url('/img/slider/pic\ mut\ 3.jpg');
+    }
+    50%{
+        background-image: url('/img/slider/pic\ mut\ 2.jpg');
+    }
+    100%{
+        background-image: url("/img/slider/pic\ mut\ 4.jpg");
+    }
+}
+#home_content{
+    margin: auto;
+}
+.intro{
+    margin: 15px 15px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: playpen sans;
+}
+.highlight
+{
+    color: #ff3131;
+    font-weight: 600;
+}.second{
+    margin: 15px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: playpen sans;
+    font-weight: 600;
+}
+.arambh{
+    margin-top: 40px;
+}
+#arambh{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    font-family: archivo black;
+}
+.images_cotainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    margin: 30px;
+    box-shadow: 5px 5px 10px;
+
+}
+.img_armabh{
+    margin: 15px;
+    width: 330px;
+    height: 350px;
+    
+
+}
+
+.img_A{
+    width: 100%;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 3px 4px 4px;
+    border-radius: 5px;
+}
+.txt p{
+    
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: playpen sans;
+    font-weight: 600;
+   
+}
+.txt{
+    margin: 50px;
+   
+}
+/* about */
+.about{
+    margin-top: 100px;
+}
+h1{
+    color:#ffffff;
+    font-size: 3rem;
+    text-align: center;
+    font-family: archivo black;
+    margin: 50px;
+    
+
+}
+#fii{
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family:archivo black;
+    margin-right: 0;
+    
+}
+#mii{
+    font-size: 3rem;
+    color: #ff3131;
+    font-weight: 600;
+    font-family: archivo black;
+    margin-left: 0;
+}
+.logooo{
+    
+    color: #ffffff;
+    font-family: archivo black;
+    font-size: 3rem;
+    padding: 10px;
+    margin-right: 0px;
+    word-spacing: 3;
+}
+
+#about_heading{
+    
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: archivo black;
+}
+
+#a_f{
+    text-align: center;
+    
+    font-family: archivo black;
+    color: #ffffff;
+    margin-right:15px;
+    font-size: 3rem;
+}
+#a_m,#a_s{
+    text-align: center;
+    font-size: 3rem;
+    font-family: archivo black;
+    color: #ffffff;
+}
+#a_m{
+    margin-right: 0px;
+}
+#a_l{
+    color: #ff3131;
+    font-family: archivo black;
+    margin-right:15px ;
+    margin-left: 0px;
+    font-size: 3rem;
+}
+.slide-container1{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 90vh;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+    animation: changess 9s infinite ;
+    margin-top: 30px;
+    border-radius: 50px;
+    /* box-shadow: 5px 5px 10px; */
+}
+.img2{
+    transform: translate(-50% -50%) ;
+}
+@keyframes changess {
+    0%{
+        background-image: url("/img/slider1/pexels-kyle-loftus-2510430.jpg");
+        
+    }50%{
+        background-image: url('/img/slider1/pexels-matheus-bertelli-3856037.jpg');
+    }
+    100%{
+        background-image: url('/img/slider1/pexels-matheus-bertelli-3856041.jpg');
+    }
+    
+}
+.ab_txt{
+    
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: playpen sans;
+    font-weight: 600;
+    margin: 30px;
+}
+#our{
+    text-align: center;
+    font-size: 2rem;
+    color:#ffffff;
+    margin-top: 30px;
+    font-family: archivo black;
+}
+.first,.second,.third{
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: playpen sans;
+    font-weight: 600;
+    justify-content: center;
+}
+.first{
+    font-family: el messiri;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.second{
+    margin-left: 0px;
+    font-size: 1.5rem;
+}
+.founder{
+    color: #ffffff;
+    margin: 50px;
+    font-size: 1.5rem;
+    font-family: el messiri;
+    font-weight: 700;
+    
+}
+/* work */
+h1{
+    font-family: archivo black;
+    color: #ffffff;
+}
+#pro{
+    color: #ff3131;
+}
+
+.images_cotainer1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    margin: 30px;
+    box-shadow: 5px 5px 10px;
+
+}
+.img_work{
+    margin: 15px;
+    width: 330px;
+    height: 350px;
+    
+
+}
+.img_W{
+    width: 100%;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 3px 4px 4px;
+    border-radius: 5px;
+}
+.w_info{
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 15px;
+    font-family:playpen sans
+    
+}
+/* service */
+.s_info{
+    
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family:playpen sans; 
+    margin: 60px;
+    
+}
+.sh{
+    font-family: Edu Tas Beginner ;
+    color: #ffffff;
+}
+h2{
+    color: #ffffff;
+}
+
+.s_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 60px;
+}
+.line{
+    font-size: 2rem;
+}
+.post{
+    width: 300px;
+    height: 300px;
+   
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#pro li{
+    color:#ffffff;
+    
+    font-size: 1.3rem;
+    font-family:playpen sans;   
+    list-style: circle ;
+    
+}
+.cont{
+    margin: 50px;
+}
+#con{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-family:playpen sans;   
+    font-weight: 600;
+} */
+/* contact */
+contactt{
+    margin: 50px;
+}
+.faa{
+    color: #ff3131;
+    margin-left: 100px;
+}
+.c_first,.c_text{
+    color: #ffffff;
+    margin: 100px;
+    font-size: 1.5rem;
+    font-family:playpen sans; 
+    font-weight: 600;
+}
+h4{
+    color: #ffffff;
+    margin: 20px;
+    font-size: 1.8rem;
+}
+.mail{
+    color: #ffffff; 
+    margin: 15px;
+    text-decoration: none;
+}
+.ph{
+    font-size: 1.5rem;
+}
+.social{
+    color: #ffffff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+/* careers */
+ .careers{
+    margin: 50px;
+}
+.ca_c,.ca_d,.ca_g,.ca_e{
+    margin-top: 20px;
+}
+.high{
+    color: #ff3131;
+}
+.sg{
+    text-align: center;
+    font-family: Edu Tas Beginner ;
+    color: #ffffff;
+    margin-top: 30px;
+
+}
+.si{
+    text-align: center;
+    font-family: Edu Tas Beginner ;
+    color: #ffffff;
+    
+}
+.ca_a,.ca_b,.ca_c,.ca_d,.ca_e,.ca_g,.ca_o,.job,.ca_i,.ca_i_a,.ca_i_b,.ca_i_c{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family:playpen sans;   
+    
+}   
+
+.fot{
+    color: #ffffff;
+    bottom: 5px;
+    
+    text-align: center;
+   
+}
+@media screen and (max-width:1000px) {
+    .logo{
+        width: 60px;
+        height: 40px;
+    }
+    a{
+        font-size: 1.2rem;
+    }
+    .slide-container,.slide-container1{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    
+    .images_cotainer1{
+        margin-left:10px ;
+    }
+}
+@media screen and (max-width:600px) {
+    .checkbtn{
+        display: block;
+    }
+    .nav-list{
+        width: 100%;
+        height: 220px;
+        background-color: black;
+        top: 80px;
+        left: 0px;
+        text-align: center;
+        margin-top: 0px;
+        
+    }
+    h2{
+        font-size: 10px;
+    }
+    .container{
+        width: 100%;
+    }
+    .navli{
+        display: block;
+        margin-top: 30px;
+    }
+    .slide-container,.slide-container1{
+        width: 98%;
+        height: 50vh;
+        
+    }
+    .slide-container{
+        margin-top: 100px;
+    }
+    .container{
+        margin-top: 200px;
+    }
+    .nav{
+        position: fix;
+    }    
+}
+
